@@ -1,0 +1,28 @@
+.about {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.about .information {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about .information li {
+    margin-bottom: 5px;
+}
+
+.about .information li:last-child {
+    margin-bottom: 0px;
+}
+
+.about .information {
+    margin-bottom: 0px;
+}
+
+.about .information .fa {
+    color: #636c72;
+    margin-right: 6px;
+    font-size: 16px;
+}

@@ -1,0 +1,39 @@
+.profile {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.profile .background-image {
+    height: 150px;
+    background-size: cover;
+    background-image: url("../todelete/aurore-01.jpg");
+}
+
+.profile .profile-image {
+    border: 3px solid #fff;
+    max-width: 100px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: -70px;
+    margin-bottom: 5px;
+}
+
+.profile .profile-numbers {
+    list-style: none;
+    padding: 0;
+}
+
+.profile .profile-number {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #d4dbe0;
+}
+
+.profile .profile-number h6 {
+   margin-top: 4px;
+}
+
+.profile .profile-number:last-child {
+    border-right: 0;
+}

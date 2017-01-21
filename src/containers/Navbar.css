@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #3097D1;
+}
+
+.navbar .form-inline {
+    color: white;
+}
+
+.navbar .form-inline i {
+    margin: 0 15px;
+}
+
+
+.navbar .form-inline .badge{
+    position: absolute;
+    top: 4px;
+    margin-left: 20px;
+}
+
+.navbar .form-inline img {
+    height: 40px;
+    width: 40px;
+}
