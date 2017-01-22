@@ -1,10 +1,10 @@
-.comment {
+.add-comment {
     font-size: 14px;
     font-weight: 300;
     display: table;
 }
 
-.comment .comment-profile-image {
+.add-comment .comment-profile-image {
     display: table-cell;
     vertical-align: top;
     width: 40px;
@@ -12,18 +12,8 @@
     margin-right: 14px;
 }
 
-.comment .comment-text {
+.add-comment .post {
     display: table-cell;
     vertical-align: top;
     width: 100%;
-}
-
-.comment .comment-text p {
-    margin-bottom: 5px;
-}
-
-.comment .comment-text .action {
-    text-align: right;
-    margin-bottom: 0;
-    font-size: 12px;
 }

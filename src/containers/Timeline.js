@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import PostMessage from './timeline/PostMessage'
 import Message from './timeline/Message'
+import MessageAction from './timeline/MessageAction'
+import Comments from './timeline/Comments'
+import AddComment from './timeline/AddComment'
 import totoro from '../todelete/totoro.jpeg'
 import aurore from '../todelete/aurore.jpg'
 import other from '../todelete/aurore-01.jpg'
@@ -22,11 +25,10 @@ const comments = [
 
 const image = [
     {
-        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        caption: "After Rain (Jeshu John - designerspics.com)"
+        src: "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_b.jpg",
+        thumbnail: "https://c7.staticflickr.com/9/8106/28941228886_86d1450016_n.jpg",
+        thumbnailWidth: 271,
+        thumbnailHeight: 320
     }
 ]
 
@@ -74,13 +76,27 @@ export default class Timeline extends Component {
                                  profileImage={totoro}
                                  postTime="4 min"
                                  message="Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-                                 comments={comments} images={images}/>
+                                 images={images}/>
+                        <MessageAction />
+                    </li>
+                    <li className="list-group-item comments">
+                        <Comments comments={comments}/>
+                    </li>
+                    <li className="list-group-item add-comment">
+                        <AddComment userName="Thibaut Mottet"
+                                    profileImage={totoro}/>
                     </li>
                     <li className="list-group-item message">
                         <Message userName="Maxime Gellé"
                                  profileImage={aurore}
                                  postTime="38 min"
                                  message="Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
+                        <MessageAction />
+                        <Comments />
+                    </li>
+                    <li className="list-group-item add-comment">
+                        <AddComment userName="Thibaut Mottet"
+                                    profileImage={totoro}/>
                     </li>
                     <li className="list-group-item message">
                         <Message userName="Igor Lovich"
@@ -88,6 +104,12 @@ export default class Timeline extends Component {
                                  postTime="1h"
                                  message="Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam."
                                  images={image}/>
+                        <MessageAction />
+                        <Comments />
+                    </li>
+                    <li className="list-group-item add-comment">
+                        <AddComment userName="Thibaut Mottet"
+                                    profileImage={totoro}/>
                     </li>
                 </ul>
             </div>

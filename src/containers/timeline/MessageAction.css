@@ -1,0 +1,23 @@
+.message-action {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+    width: 100%;
+}
+
+.message-action  .btn {
+    font-size: 14px;
+    font-weight: 300;
+    padding:5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.message-action  .btn:last-child {
+    margin-right: 0;
+}
+
+.message-action .fa {
+    margin-right: 5px;
+    font-size: 18px;
+}

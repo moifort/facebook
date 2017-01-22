@@ -1,0 +1,27 @@
+.notification {
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.notification .dropdown-menu {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.notification .dropdown-menu .dropdown-item i.fa {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.notification span.badge.badge-notify {
+    background: red;
+    position: relative;
+    top: -12px;
+    left: -24px;
+    margin-left: 0;
+    margin-right: 0;
+}

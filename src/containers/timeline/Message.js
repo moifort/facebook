@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import Gallery from 'react-grid-gallery'
-import Comment from './Comment'
 import './Message.css'
 
 export default class Message extends Component {
@@ -12,29 +11,16 @@ export default class Message extends Component {
                     <small className="pull-right">{this.props.postTime}</small>
                     <h6>{this.props.userName}</h6>
                     <p> {this.props.message}</p>
+
                     {
                         this.props.images
                             ? (
                                 <div className="photos">
-                                    <Gallery images={this.props.images} enableImageSelection={false} rowHeight={180}
+                                    <Gallery images={this.props.images}
+                                             enableImageSelection={false}
+                                             rowHeight={this.props.images.length > 1 ? 180 : 300}
                                              enableLightbox={true}/>
                                 </div>)
-                            : null
-                    }
-
-                    {
-                        this.props.comments
-                            ? (<ul>
-                                {this.props.comments.map(function (comment, index) {
-                                    return (
-                                        <li key={index}>
-                                            <Comment userName={comment.userName}
-                                                     profileImage={comment.profileImage}
-                                                     comment={comment.comment}/>
-                                        </li>
-                                    );
-                                })}
-                            </ul>)
                             : null
                     }
                 </div>

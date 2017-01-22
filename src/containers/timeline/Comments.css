@@ -1,0 +1,12 @@
+.comments ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.comments li {
+    margin-bottom: 14px;
+}
+
+.comments li:last-child {
+    margin-bottom: 0px;
+}

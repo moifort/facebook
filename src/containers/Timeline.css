@@ -15,4 +15,18 @@
 
 .timeline li.message {
     padding: 21px;
+    border-bottom-width: 0;
+    margin-bottom: 0;
+}
+
+.timeline .list-group-item.comments {
+    background-color: rgba(0, 0, 0, 0.125);
+    border-bottom-width: 0;
+    margin-bottom: 0;
+    border-top-width: 0;
+}
+
+.timeline .list-group-item.add-comment {
+    background-color: rgba(0, 0, 0, 0.125);
+    border-top-width: 0;
 }
