@@ -1,0 +1,18 @@
+.ad {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.ad .photos {
+    display: block;
+    min-height: 1px;
+    width: 100%;
+    overflow: auto;
+    margin: 10px 0;
+}
+
+.ad .btn {
+    font-size: 14px;
+    font-weight: 300;
+    padding:5px 10px;
+}
