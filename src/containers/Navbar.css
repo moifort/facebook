@@ -1,5 +1,7 @@
 .navbar {
     background-color: #3097D1;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .navbar .form-inline {
@@ -20,4 +22,14 @@
 .navbar .form-inline img {
     height: 40px;
     width: 40px;
+}
+
+.navbar .form-control {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.navbar .btn {
+    font-size: 14px;
+    font-weight: 300;
 }

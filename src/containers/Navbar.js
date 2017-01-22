@@ -12,8 +12,6 @@ export default class Navbar extends Component {
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <a className="navbar-brand" href="#"><i className="fa fa-bandcamp" aria-hidden="true"></i></a>
-
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">

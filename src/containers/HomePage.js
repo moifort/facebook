@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Profile from './Profile'
 import About from './About'
 import Photos from './Photos'
+import Timeline from './Timeline'
 import './HomePage.css'
 
 export default class HomePage extends Component {
@@ -15,7 +16,7 @@ export default class HomePage extends Component {
                         <Photos />
                     </div>
                     <div className="col-md-6">
-
+                        <Timeline />
                     </div>
                     <div className="col-md-3">
 
