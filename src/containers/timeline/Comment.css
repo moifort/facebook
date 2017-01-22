@@ -1,0 +1,19 @@
+.comment {
+    font-size: 14px;
+    font-weight: 300;
+    display: table;
+}
+
+.comment .comment-profile-image {
+    display: table-cell;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+
+.comment p {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+}

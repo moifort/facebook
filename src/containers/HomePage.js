@@ -3,6 +3,8 @@ import Profile from './Profile'
 import About from './About'
 import Photos from './Photos'
 import Timeline from './Timeline'
+import Alert from './Alert'
+import Ad from './Ad'
 import './HomePage.css'
 
 export default class HomePage extends Component {
@@ -19,7 +21,8 @@ export default class HomePage extends Component {
                         <Timeline />
                     </div>
                     <div className="col-md-3">
-
+                        <Alert />
+                        <Ad />
                     </div>
                 </div>
             </div>
